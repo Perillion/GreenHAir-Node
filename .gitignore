@@ -1,27 +1,50 @@
-# KiCad 4, 5 and 6
+# KiCad Temporary and Backup Files
 *.000
 *.bak
 *.bck
 *.kicad_pcb-bak
 *.kicad_sch-bak
+*-backups
+*-cache*
 *-bak
 *-bak*
-*-backups
-*_autosave.kicad_pcb
-*_autosave.kicad_sch
-*.kicad_prl
-*.sch-bak
 *~
+_autosave-*
+#auto_saved_files#
+*.tmp
+*-save.pro
+*-save.kicad_pcb
+fp-info-cache
+~*.lck
+
+# Netlist and Autorouter Files
 *.net
+*.dsn
+*.ses
+
+# Exported BOM and Reports
 *.xml
 *.csv
-.DS_Store
-*.cmp
-*.stf
-*.kicad_mod
-*.kicad_wks
-fp-info-cache
-# For autosave
-_autosave-*
-# For 3D models from Eagle
+*.rpt
+
+# Project Local Settings and Caches
+# .kicad_prl contains local path settings and preferences
+*.kicad_prl
+# .kicad_dru contains design rules user settings (sometimes local)
+*.kicad_dru
+
+# Legacy Rescue and Cache Libraries
+*-rescue.lib
+*-cache.lib
+
+# 3D Models (temporary/converted)
 *.step
+*.stp
+
+# Generated Manufacturing Output (Gerbers, Drill, Position)
+# Comment these out if you want to track release artifacts
+*.gbr
+*.drl
+*.pos
+*.g?
+*.d?
