@@ -315,7 +315,7 @@
 		(at 50.8 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "cfe7b9f4-d475-4974-9268-79ed45f80a45")
+		(uuid "e20cdd8f-26fb-4732-84b5-b62cb6b0a8c0")
 	)
 	(wire
 		(pts
@@ -326,16 +326,6 @@
 			(type default)
 		)
 		(uuid "8b5985cf-e04d-483c-88a7-fac2ba355917")
-	)
-	(wire
-		(pts
-			(xy 50.8 177.8) (xy 50.8 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5698916-49f2-48c4-a8da-05469ab9cdba")
 	)
 	(wire
 		(pts
@@ -366,6 +356,16 @@
 			(type default)
 		)
 		(uuid "bede59c7-8cb0-459c-b031-70327067c2ac")
+	)
+	(wire
+		(pts
+			(xy 50.8 165.1) (xy 50.8 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d10a52fe-5bbe-4714-b41e-719317fd26a8")
 	)
 	(wire
 		(pts
@@ -425,7 +425,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fiducial:Fiducial_0.75mm_Mask1.5mm"
 			(at 63.5 127 0)
 			(effects
 				(font
@@ -468,7 +468,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "4a82711d-620b-4b4f-a971-09cfdf722845")
 		(property "Reference" "H101"
@@ -487,7 +487,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_ISO14580_Pad_TopBottom"
 			(at 35.56 127 0)
 			(effects
 				(font
@@ -554,7 +554,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fiducial:Fiducial_0.75mm_Mask1.5mm"
 			(at 63.5 139.7 0)
 			(effects
 				(font
@@ -597,7 +597,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "bcdfdde4-f334-4306-ae55-e4212949df39")
 		(property "Reference" "H102"
@@ -616,7 +616,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_ISO14580_Pad_TopBottom"
 			(at 35.56 139.7 0)
 			(effects
 				(font
@@ -662,7 +662,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "d26cb2fc-5011-489a-80f0-8e402a8fe2b6")
 		(property "Reference" "H103"
@@ -681,7 +681,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_ISO14580_Pad_TopBottom"
 			(at 35.56 152.4 0)
 			(effects
 				(font
@@ -727,7 +727,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "d6c089f2-8d4b-469f-a9bb-35bc28bc1b46")
 		(property "Reference" "H104"
@@ -746,7 +746,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_ISO14580_Pad_TopBottom"
 			(at 35.56 165.1 0)
 			(effects
 				(font

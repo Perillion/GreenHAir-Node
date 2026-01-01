@@ -10,6 +10,113 @@
 		(company "Perillion Labs")
 	)
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Sensor_Optical:AS7341DLG"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -473,6 +580,18 @@
 		(color 0 0 0 0)
 		(uuid "252ea29b-ac44-4c33-a559-0df6031d8864")
 	)
+	(junction
+		(at 101.6 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3d8056b1-f3f7-40a5-bd7f-fc2db89ad08e")
+	)
+	(junction
+		(at 101.6 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "93132a34-cb1b-4c77-8926-445e9b23e4c5")
+	)
 	(no_connect
 		(at 149.86 54.61)
 		(uuid "98adce5f-da09-4df3-b1b3-35ce0d4f01d3")
@@ -555,6 +674,16 @@
 		)
 		(uuid "3d6e6417-b19e-41e5-aed4-c05f7eb37143")
 	)
+	(wire
+		(pts
+			(xy 101.6 54.61) (xy 129.54 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3efd6117-6ecb-41bb-88d3-4481824b30e8")
+	)
 	(bus
 		(pts
 			(xy 76.2 165.1) (xy 76.2 59.69)
@@ -624,6 +753,16 @@
 			(type default)
 		)
 		(uuid "7f6d6203-5fd8-48a0-9dc9-5b7cd6754ebc")
+	)
+	(wire
+		(pts
+			(xy 101.6 57.15) (xy 129.54 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96de6c30-bc99-42c5-9dee-1b8e2aa921ac")
 	)
 	(wire
 		(pts
@@ -697,7 +836,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 54.61) (xy 129.54 54.61)
+			(xy 78.74 54.61) (xy 101.6 54.61)
 		)
 		(stroke
 			(width 0)
@@ -707,7 +846,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 57.15) (xy 129.54 57.15)
+			(xy 78.74 57.15) (xy 101.6 57.15)
 		)
 		(stroke
 			(width 0)
@@ -766,12 +905,12 @@
 		(uuid "1fcb7631-20bf-494e-b409-ccc85f6f8554")
 	)
 	(label "AS73_INT"
-		(at 81.28 52.07 0)
+		(at 96.52 52.07 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "40310dd7-7edf-4e49-931d-817ab8ee6335")
 	)
@@ -928,6 +1067,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 101.6 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d658cec-bd47-4f83-a786-092006b556db")
+		(property "Reference" "TP301"
+			(at 104.14 50.0379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 104.14 52.5779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
+			(at 106.68 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 101.6 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "36598948-3803-47b4-8abb-0af3070a8b11")
+		)
+		(instances
+			(project "GreenHAir_Node"
+				(path "/0fb6cf8e-df3c-4656-9a7e-f74b2436dafb/818579d5-87db-498a-9939-a030b465af68"
+					(reference "TP301")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Sensor_Optical:AS7341DLG")
 		(at 139.7 57.15 0)
 		(unit 1)
@@ -1078,6 +1284,140 @@
 			(project "GreenHAir_Node"
 				(path "/0fb6cf8e-df3c-4656-9a7e-f74b2436dafb/818579d5-87db-498a-9939-a030b465af68"
 					(reference "#PWR0302")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 167.64 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "baa2df73-97f2-458e-8ec6-1978c36361ea")
+		(property "Reference" "TP303"
+			(at 170.18 52.5779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 170.18 55.1179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
+			(at 172.72 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 172.72 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 167.64 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "86616275-7bf0-413b-ae76-d04490f763e7")
+		)
+		(instances
+			(project "GreenHAir_Node"
+				(path "/0fb6cf8e-df3c-4656-9a7e-f74b2436dafb/818579d5-87db-498a-9939-a030b465af68"
+					(reference "TP303")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 101.6 57.15 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d1eb3a2b-dd6e-4ade-a875-569c21548380")
+		(property "Reference" "TP302"
+			(at 104.14 59.1819 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 104.14 61.7219 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
+			(at 96.52 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 101.6 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "082b9492-45a6-4c7b-be15-4a0945ef7b73")
+		)
+		(instances
+			(project "GreenHAir_Node"
+				(path "/0fb6cf8e-df3c-4656-9a7e-f74b2436dafb/818579d5-87db-498a-9939-a030b465af68"
+					(reference "TP302")
 					(unit 1)
 				)
 			)
